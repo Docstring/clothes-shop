@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest_mock = "*"
+
+[packages]
+clothes-shop = {editable = true, path = "."}
+flask = "*"
+flask-sqlalchemy = "*"
+pg8000 = "==1.16.5"
+requests = "*"
+sqlalchemy = "*"
+
+[requires]
+python_version = "3.9"
